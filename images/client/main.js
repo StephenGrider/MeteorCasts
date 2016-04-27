@@ -8,6 +8,11 @@ import ImageList from './components/image_list';
 
 // Create a component
 class App extends Component {
+  componentWillMount() {
+    // Fantastic place to load data!
+    console.log('App is about to render');
+  }
+
   render() {
     return (
       <div>
