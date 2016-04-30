@@ -2,7 +2,9 @@ import React from 'react';
 import { createContainer } from 'meteor/react-meteor-data';
 import { Employees } from '../../imports/collections/employees';
 
-const EmployeeList = () => {
+const EmployeeList = (props) => {
+  // props.employees => an array of employee objects
+
   return (
     <div>
       <div className="employee-list">
