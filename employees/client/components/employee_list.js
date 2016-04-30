@@ -5,7 +5,6 @@ import EmployeeDetail from './employee_detail';
 
 const EmployeeList = (props) => {
   // props.employees => an array of employee objects
-
   return (
     <div>
       <div className="employee-list">
@@ -13,6 +12,10 @@ const EmployeeList = (props) => {
           <EmployeeDetail key={employee._id} employee={employee} />
         )}
       </div>
+      <button onClick={() => console.log('clicked') }
+        className="btn btn-primary">
+        Load More...
+      </button>
     </div>
   );
 };
