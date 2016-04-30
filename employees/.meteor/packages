@@ -19,3 +19,4 @@ ecmascript              # Enable ECMAScript2015+ syntax in app code
 
 insecure
 react-meteor-data
+twbs:bootstrap@3.3.6
