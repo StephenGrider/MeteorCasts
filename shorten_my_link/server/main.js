@@ -16,11 +16,16 @@ function onRoute(req, res, next) {
   // matching link in the Links collection
   const link = Links.findOne({ token: req.params.token });
 
-  // If we find a link object, redirect the user to the
-  // long URL
-
-  // If we don't find a link object, send the user
-  // to our normal React app
+  if (link) {
+    // If we find a link object, redirect the user to the
+    // long URL
+    res.writeHead(307, { 'Location': link.url });
+    res.end();
+  } else {
+    // If we don't find a link object, send the user
+    // to our normal React app
+    next();
+  }
 }
 
 const middleware = ConnectRoute(function(router) {
