@@ -11,9 +11,10 @@ Meteor.startup(() => {
 
 // Executed whenever a user visits with a route like
 // 'localhost:3000/abcd'
-function onRoute() {
+function onRoute(req, res, next) {
   // Take the token out of hte url and try to a find a
   // matching link in the Links collection
+  const link = Links.findOne({ token: req.params.token });
 
   // If we find a link object, redirect the user to the
   // long URL
