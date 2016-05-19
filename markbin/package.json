@@ -1,0 +1,13 @@
+{
+  "name": "markbin",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "meteor-node-stubs": "~0.2.0",
+    "react": "^15.0.2",
+    "react-addons-pure-render-mixin": "^15.0.2",
+    "react-dom": "^15.0.2"
+  }
+}
