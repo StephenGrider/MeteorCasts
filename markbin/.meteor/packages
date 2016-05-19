@@ -21,3 +21,5 @@ autopublish             # Publish all data to the clients (for prototyping)
 insecure                # Allow all DB writes from clients (for prototyping)
 react-meteor-data
 twbs:bootstrap@3.3.6
+accounts-ui
+accounts-password
