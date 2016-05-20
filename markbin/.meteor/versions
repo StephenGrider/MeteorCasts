@@ -67,6 +67,7 @@ retry@1.0.7
 routepolicy@1.0.10
 service-configuration@1.0.9
 session@1.1.5
+sgslo:cmstyle@0.0.1
 sha@1.0.7
 spacebars@1.0.11
 spacebars-compiler@1.0.11
