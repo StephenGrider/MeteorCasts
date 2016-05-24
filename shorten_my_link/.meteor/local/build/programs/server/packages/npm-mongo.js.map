@@ -1,0 +1,1 @@
+{"version":3,"sources":["meteor://💻app/packages/npm-mongo/wrapper.js"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;AAAA;AACA","file":"/packages/npm-mongo.js","sourcesContent":["NpmModuleMongodb = Npm.require('mongodb');\nNpmModuleMongodbVersion = Npm.require('mongodb/package.json').version;\n"]}
