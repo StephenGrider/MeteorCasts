@@ -6,3 +6,9 @@
 .list-group-item {
   height: 55px;
 }
+
+.bins-share {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
